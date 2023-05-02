@@ -1,19 +1,45 @@
 * {
-	margin:  0px;
-	padding:  0px;
+	margin:  20px;
+	padding:  -2px;
 	box-sizing: border-box;
 }
 
 /* adjusting fonts */
 
+html{
+	height:100%;
+}
+
+
+
+body{
+	background-image: radial-gradient(#d8e2dc, #d8e2dc, #ffe5d9, #ffcad4) ;
+}
+
+{
+	text-align: center;
+}
+
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	height: 10px;
+	color: slategrey;
+	font-family: 'Lexend Deca', sans-serif;
 	transition: background 500ms ease;
 }
 
+
 p, li {
-	font-size:  22px;
+	font-size:  18px;
 	line-height: 30px;
+}
+
+
+.desc{
+	font-size: 22px;
+}
+
+h3, p{
+	font-size: 22px;
 }
 
 /* adjusting spacing */
@@ -23,17 +49,45 @@ p, li {
 }
 
 h1, p {
+	font-size: 30px;
+	font-family: serif;
 	margin-bottom:  20px;
+	text-align: center;
+}
+
+
+#about {
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 10px;
+	border-color: dimgrey;
+	box-shadow: rgba(50, 50, 93, 0.2) 0px 50px 100px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+
 }
 
 ul, ol {
 	margin-left: 20px;
+	font-family: serif;
 }
 
 img {
 	max-width: 100%;
 	height:  auto;
 }
+
+
+
+#Exercises {
+	align-content: center;
+	font-family: serif;
+	font-size: 12px;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
 
 /* uncomment the code below to set the grid */
 
