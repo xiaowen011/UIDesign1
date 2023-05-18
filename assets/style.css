@@ -1,3 +1,9 @@
+@font-face{
+	font-family: serif;
+	src: ;
+}
+
+
 * {
 	margin:  20px;
 	padding:  -2px;
@@ -15,6 +21,7 @@ html{
 body{
 	background-image: radial-gradient(#d8e2dc, #d8e2dc, #ffe5d9, #ffcad4) ;
 }
+
 
 {
 	text-align: center;
@@ -44,9 +51,6 @@ h3, p{
 
 /* adjusting spacing */
 
-#left-column {
-	padding: 20px;
-}
 
 h1, p {
 	font-size: 30px;
@@ -89,6 +93,11 @@ img {
 }
 
 
+#darkmode {
+	text-align: center;
+	font-size: 50px;
+}
+
 /* uncomment the code below to set the grid */
 
 /*#grid {
@@ -112,3 +121,15 @@ body {
 #right-column {
 	background: #333;
 }*/
+
+
+body.darkmode {
+	background-image: radial-gradient(#075E93, #076696, #29CED0, #062A78);
+	font-style: sanserif;
+	color: whitesmoke;
+
+}
+
+body.darkmode a{
+	color: yellow;
+}
